@@ -1,0 +1,145 @@
+.body {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+
+}
+
+.top-quarter {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: space-between;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    padding: 24px;
+    align-items: space-around;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-family:"Hero Main";  
+    width: 400px;  
+    margin: auto;
+    padding: auto;
+}
+
+.right-links {
+    display: flex;
+    width: 400px;
+    gap: 16px;
+    align-self: flex-end;
+    margin: auto;
+    padding: auto;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    padding-right: 64px;
+}
+
+.center {
+    display: flex;
+    flex-shrink: 0;
+    width: 400px;
+    margin: auto;
+    padding: auto;
+}
+
+.topbody { 
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.container {
+    display: flex;
+    align-items: flex-end;
+    max-width: 300px;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 24px;
+
+}
+
+.awesome {
+    font-family: "Hero Main";
+    font-size: 48px;
+    font-weight: 700;
+    padding: 8px;
+}
+
+.stepbrothers {
+    display: flex;
+    margin: auto;
+    padding: auto;
+}
+
+.subtext {
+    display: flex;
+    font-family: "Hero Main";
+    padding: 8px;
+    min-width: 350px
+}
+
+.signup{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.middletop-quarter {
+    display: flex;
+    flex-direction: column;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px;
+    font-family: "information header";
+    color: black;
+    font-weight: 700;
+    font-size: 36px;   
+}
+
+.boxes {
+    display:flex;
+    justify-content: center;  
+    flex-direction: row;
+    padding: 8px;
+    gap: 24px;
+}
+
+.box, .box2,
+.box3, .box4 {
+    max-width: 100px;
+    min-height: 100px;
+    width: 100px;
+    height: 100px;
+    height: auto;
+    border: 1px solid #3882f6;
+    border-radius: 12px; 
+}
+
+.subtext {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100px;
+}
+
