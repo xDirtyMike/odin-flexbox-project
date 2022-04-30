@@ -102,6 +102,7 @@ ul {
 .middletop-quarter {
     display:flex;
     flex-direction: column;
+    margin-bottom: 50px
 }
 
 .random {
@@ -111,21 +112,30 @@ ul {
     font-size: 36px;
     font-weight: 700px;
     font-family: #1f2937;
+    
 }
 
 .boxes {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    max-width: 100px;
     justify-content: center;
+    gap: 32px;
+    
 }
 
-.box1, .box2,
-.box3, .box4 {
+.box, .box2, .box3, .box4 {
     border: 1px solid;
     border-color: #3882f6;
     border-radius: 12px;
     height: 100px;
     width: 100px;
+    padding: 16px;
+    gap: 32px;
+    
+}
+
+.subtext {
+    max-width: 100px;
+    text-align: center;
 }
