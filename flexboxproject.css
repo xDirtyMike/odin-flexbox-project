@@ -1,96 +1,93 @@
 .body {
-   display: flex;
-   flex-direction: column;
-   margin: 0;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .top-quarter {
     display: flex;
-    background-color: #1F2937;
-    color: white;
-    align-items: space-between;
     flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    
 }
 
 .header {
     display: flex;
-    padding: 24px;
-    align-items: space-around;
+    justify-content: space-around;
+    padding: 16px;
+    margin: 30px;
+
 }
 
-.logo {
+.logo { 
     display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
     font-size: 24px;
-    font-family:"Hero Main";  
-    width: 400px;  
-    margin: auto;
-    padding: auto;
-}
-
-.right-links {
-    display: flex;
-    width: 400px;
-    gap: 16px;
-    align-self: flex-end;
-    margin: auto;
-    padding: auto;
-    flex-wrap: nowrap;
-    font-size: 12px;
-    padding-right: 64px;
+    font-family: #f9faf8;
 }
 
 .center {
     display: flex;
-    flex-shrink: 0;
-    width: 400px;
-    margin: auto;
-    padding: auto;
+    justify-content: center;
 }
 
-.topbody { 
+.right-links {
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-start;
+    justify-content: flex-end;
+    color: white;
+    gap: 16px;
+    font-family: #e5e7eb;
+    margin-right: 50px;
+    font-size: 18px;
 }
-.container {
+
+.topbody {
     display: flex;
-    align-items: flex-end;
-    max-width: 300px;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: auto;
-    padding-bottom: 24px;
-
+    margin: 30px;
+    justify-content: space-around;
 }
 
-.awesome {
-    font-family: "Hero Main";
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    margin: 50px;
+    
+}
+
+.awesome{
     font-size: 48px;
     font-weight: 700;
-    padding: 8px;
+    font-family: #f9faf8;
+    
+
 }
 
-.stepbrothers {
+.subtext1 {
+    font-size: 18px;
+}
+
+.signup {
     display: flex;
-    margin: auto;
-    padding: auto;
-}
-
-.subtext {
-    display: flex;
-    font-family: "Hero Main";
-    padding: 8px;
-    min-width: 350px
-}
-
-.signup{
     background-color: #3882f6;
-    color: white;
-    padding: 10px;
-    margin: 8px;
+    max-width: 75px;
+    min-height: 35px;
+    justify-content: center;
+    align-items: center;
     border-radius: 12px;
+    color: white;
+    margin-bottom: 16px;
+    margin-top: 12px;
+
 }
+
+img {
+    flex: 0;
+    width: 450px;
+    height: 281px;
+}
+
 
 a {
     text-decoration: none;
@@ -98,48 +95,37 @@ a {
 }
 
 ul {
-    list-style-type: none;
-
+    list-style: none;
+    color: white;
 }
 
 .middletop-quarter {
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 
 .random {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    padding: 16px;
-    font-family: "information header";
-    color: black;
-    font-weight: 700;
-    font-size: 36px;   
+    margin: 36px;
+    font-size: 36px;
+    font-weight: 700px;
+    font-family: #1f2937;
 }
 
 .boxes {
-    display:flex;
-    justify-content: center;  
-    flex-direction: row;
-    padding: 8px;
-    gap: 24px;
-}
-
-.box, .box2,
-.box3, .box4 {
-    max-width: 100px;
-    min-height: 100px;
-    width: 100px;
-    height: 100px;
-    height: auto;
-    border: 1px solid #3882f6;
-    border-radius: 12px; 
-}
-
-.subtext {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     max-width: 100px;
+    justify-content: center;
 }
 
+.box1, .box2,
+.box3, .box4 {
+    border: 1px solid;
+    border-color: #3882f6;
+    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+}
