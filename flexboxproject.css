@@ -169,3 +169,35 @@ ul {
     min-height: 100px;
     font-weight: 700;
 }
+
+.bottom-quarter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottombox {
+    display: flex;
+    flex-direction:column;
+    background-color: #3882f6;
+    color: white;
+    min-width: 800px;
+    min-height: 200px;
+    margin: 50px;
+    align-items: flex-end;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    align-self: flex-start;
+}
+
+.button {
+    display: flex;
+    max-width: 75px;
+    min-width: 35px;
+    justify-content: center;
+    
+}
