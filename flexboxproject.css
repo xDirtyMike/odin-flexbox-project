@@ -138,4 +138,34 @@ ul {
 .subtext {
     max-width: 100px;
     text-align: center;
+    margin-bottom: 75px;
+}
+
+.middlebottom-quarter {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 50px;
+    font-style: italic;
+    max-width: 600px;
+    margin-top: 50px;
+    padding-bottom: 0;
+
+}
+
+.thor {
+    display: flex;
+    min-width: 500px;
+    justify-content: flex-end;
+    min-height: 100px;
+    font-weight: 700;
 }
