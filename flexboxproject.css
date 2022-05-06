@@ -181,23 +181,40 @@ ul {
     flex-direction:column;
     background-color: #3882f6;
     color: white;
-    min-width: 800px;
-    min-height: 200px;
+    width: 800px;
+    height: 200px;
     margin: 50px;
     align-items: flex-end;
+    border-radius: 12px;
 }
 
 .contain {
     display: flex;
     flex-direction: column;
-    margin: 50px;
+    margin-top: 65px;
+    margin-left: 75px;
     align-self: flex-start;
+    margin-right: 0;
+    
 }
 
 .button {
     display: flex;
-    max-width: 75px;
-    min-width: 35px;
+    min-width: 150px;
+    min-height: 35px;
     justify-content: center;
-    
+    margin-right: 100px;
+    margin-bottom: 50px;
+    background-color: #3882f6;
+    border-color: white;
+    color: #e5e7eb;
+    border-radius: 12px;
+    font-size: 16px;
+    align-items: center;
+    border: 1px, solid;
+    margin-left: 0;
+}
+
+.call {
+    font-size: 24px;
 }
